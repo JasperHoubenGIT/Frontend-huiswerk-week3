@@ -1,0 +1,255 @@
+/*////////////////////////
+    Table of Contents
+    1. Global Styles
+    2. Typography
+    3. Layout
+        3.1 Reusables
+        3.2 Other
+    4. Areas
+        4.1 Header
+        4.2 Introduction
+        etc.
+    5. Media Queries
+////////////////////////*/
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+
+/* ------------------------------- 2. Typography ----------------------------------- */
+
+/* ------------------------------- 3. Layout --------------------------------------- */
+
+/* --------------- 3.1 Reusables ----------------------- */
+
+/* --------------- 3.2 Other --------------------------- */
+
+/* ------------------------------- 4. Areas ---------------------------------------- */
+
+/* --------------- 4.1 Header ------------------------- */
+
+/* --------------- 4.2 Introduction ------------------- */
+
+/* ------------------------------- 5. Media Queries -------------------------------- */
+
+button {
+    display: inline-block;
+    padding: 20px 50px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #ED4385;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+}
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+h1,h2,h3{
+    font-family: "Roboto Light", sans-serif;}
+
+p{
+    font-family:'Merriweather', sans-serif;}
+
+header{
+    background-color: #4845E4;
+    padding: 10px;
+}
+        nav{
+            display: flex;
+            width: 96%;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            align-content: stretch;
+            color: white;}
+
+        ul{ flex-basis: 280px;
+            list-style-type: none;
+            display: inline-flex;
+            flex-direction: row;
+            justify-content: space-between;}
+
+        .div-one{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            color: white;
+            min-width: 500px;
+            padding: 50px 400px;
+        }
+        .img-one{
+            display: flex;
+            padding-top: 70px;
+            margin: 0 auto;
+            max-width: 60px;
+
+        }
+
+main{
+    background-color: #F3F6F9;
+}
+        .section-one{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #4845E4;
+        }
+        .p-one{
+            color: #0C0C0C;
+        }
+        .div-two{
+            display: flex;
+            flex-direction: column;
+            min-width: 500px;
+            align-items: center;
+            text-align: center;
+            padding: 50px 400px;
+        }
+
+        .section-two{
+
+        }
+
+        .art-one{
+            width: 100%;
+            min-width: content-box;
+            display: flex;
+            padding: 50px;
+            align-items: center;
+
+
+
+        }
+
+        .div-three{
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            text-align: left;
+            max-width: 300px;
+            min-width: 200px;
+            padding: 50px 150px 50px 50px;
+        }
+        .div-four{
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            text-align: left;
+            max-width: 300px;
+            min-width: 200px;
+            padding: 50px 50px 50px 150px;
+}
+
+        img{
+            width: 100%;
+        }
+
+        .image-wrapper {
+            flex-basis: 700px;
+            flex-grow: 0;
+            flex-shrink: 2;
+            box-shadow: 10px 10px 20px darkgrey;
+
+        }
+        .p-art{
+            color: #4845E4;
+            text-transform: uppercase;
+        }
+        .img-two{
+            width: 50px;
+        }
+
+        .image-wiggle{
+            display: flex;
+            max-width: 50px;
+        }
+
+        .section-three{
+            display: inline-flex;
+            flex-wrap: wrap;
+            padding: 50px;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            width: auto;
+
+
+        }
+        .art-two{
+            display: flex;
+            border-style: solid;
+            border-color: #4845E4;
+            border-width: thin;
+            padding: 25px;
+            flex-direction: column;
+            text-align: left;
+            width: 300px;
+            height: 260px;
+            margin: 15px;
+            box-shadow: 10px 10px 10px lightgrey;
+         }
+        .art-t{
+            display: flex;
+            border-style: solid;
+            border-color: #4845E4;
+            border-width: thin;
+            padding: 25px;
+            flex-direction: column;
+            text-align: left;
+            width: 300px;
+            height: 260px;
+        }
+        .section-four{
+            background-color: #4845E4;
+            height: auto;
+        }
+
+        .div-five{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            align-content: center;
+            color: #F3F6F9;
+            width: 600px;
+            margin: auto;
+            padding-bottom: 50px;
+        }
+
+        form{
+            display: flex;
+            margin-top: 1em;
+            flex-direction: column;
+            text-align: left;
+            justify-content: center;
+            width: 100%;
+        }
+        input{
+            border-radius: 3px;
+            margin-top: 1px;
+            margin-bottom: 15px;
+            min-height: 25px;
+        }
+        textarea{
+            border-radius: 3px;
+            margin-top: 1px;
+            margin-bottom: 15px;
+        }
+
+        footer{
+            display: flex;
+            background-color: #0C0C0C;
+            color: #F3F6F9;
+            text-align: center;
+            justify-content: center;
+            font-size: 75%;
+            height: 40px;
+        }
+
